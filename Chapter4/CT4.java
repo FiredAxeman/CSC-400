@@ -90,7 +90,6 @@ public class CT4 {
         }
     }
 
-    // Helper method to safely evaluate and print results without crashing
     public void printEvaluation(String expression) {
         try {
             int result = evaluatePostfix(expression);
@@ -125,5 +124,6 @@ public class CT4 {
 
         // Testing the file reader capability
         calculator.evaluateFile("expressions.txt");
+        //replace "expressions.txt" with the actual path to your text file containing postfix expressions
     }
 }
