@@ -99,7 +99,7 @@ class CustomLinkedList {
     }
 }
 
-public class CT5 {
+public class CT6 {
     public static void main(String[] args) {
         CustomLinkedList linkedList = new CustomLinkedList();
 
